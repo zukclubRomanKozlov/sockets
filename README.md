@@ -49,7 +49,7 @@ print(msg)
 conn.send(msg)
 conn.close
  
-mport socket
+import socket
 import pickle
 
 sock = socket.socket ( )
