@@ -34,7 +34,7 @@ msg = passwd
 sock.send(msg.encode())
 
 
-mport socket
+import socket
 import pickle
 
 sock = socket.socket ( )
